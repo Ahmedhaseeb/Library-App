@@ -14,8 +14,8 @@
 
 # User Side Functionalities
   
-  Can View List of All Books
-  Can View Books That Issued to him
+    Can View List of All Books
+    Can View Books That Issued to him
 
 
 # How To Make It Work
@@ -50,10 +50,10 @@ Create a blank Database With Any Name and Update the database variables in the .
 
 Clear The Cache
 
-`php artisan cache:clear`
-`php artisan route:clear`
-`php artisan config:clear`
-`php artisan view:clear`
+    php artisan cache:clear
+    php artisan route:clear
+    php artisan config:clear
+    php artisan view:clear
 
 Do the database migration
 
@@ -64,10 +64,10 @@ Put the Dummy Data
 `php artisan db:seed`
 
 
-Make Sure Your Domain Directly Point the Public Directory Of App
+Make Sure Your Domain Directly Point the Public Directory Of App<br>
 If domain is example.com then it must be executing code from the Library App `public` directory.
 
 For installation at local server I recommend you to create a virtual host that points to `public` directory of app.
 
-Thats It.
+Thats It<br>
 Thanks
