@@ -20,8 +20,10 @@
 
 # How To Make It Work
  Clone the repo
+ Rename .env.example to .env
  
-# Setup Database
+ 
+# Setup Database Details
 
 Open .env file put the database details.<br>
 Default DB Configuration Details Are Below:
@@ -45,6 +47,10 @@ Create a blank Database With Any Name and Update the database variables in the .
     * PDO PHP Extension
     * Tokenizer PHP Extension
     * XML PHP Extensio
+
+# Run Composer Install Command In The App Folder
+
+    composer install
 
 # Run Artisan Commands
 
